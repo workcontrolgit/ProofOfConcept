@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Bogus" Version="32.0.2" />
     <PackageReference Include="Dapper" Version="2.0.35" />
     <PackageReference Include="GenFu" Version="1.6.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.6" />

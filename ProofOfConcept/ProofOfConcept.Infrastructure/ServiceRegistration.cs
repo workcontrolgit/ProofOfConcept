@@ -16,6 +16,7 @@ namespace ProofOfConcept.Infrastructure
         {
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<IPersonRepository, PersonRepository>();
+            services.AddTransient<IIncidentReportRepository, IncidentRepository>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
 
             //SQLKata DI Container https://sqlkata.com/docs/

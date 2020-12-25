@@ -4,6 +4,11 @@
         <name>ProofOfConcept.WebApi</name>
     </assembly>
     <members>
+        <member name="M:ProofOfConcept.Api.Controllers.IncidentsController.GetAll(System.Int32,System.Int32)">
+            <summary>
+            SELECT records from mock library Bogus
+            </summary>
+        </member>
         <member name="M:ProofOfConcept.Api.Controllers.PersonsController.GetAll(System.Int32,System.Int32)">
             <summary>
             SELECT records from mock library GenFu
