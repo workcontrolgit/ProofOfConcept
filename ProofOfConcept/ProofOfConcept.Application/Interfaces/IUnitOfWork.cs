@@ -5,5 +5,6 @@ namespace ProofOfConcept.Application.Interfaces
     {
         IProductRepository Products { get; }
         IPersonRepository Persons { get; }
+        IIncidentReportRepository IncidentReport { get; }
     }
 }
