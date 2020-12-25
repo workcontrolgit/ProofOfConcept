@@ -1,0 +1,1 @@
+Thttps://fuji-nguyen.medium.com/quick-proof-of-concept-asp-net-core-web-api-using-swashbuckle-aspnetcore-and-bogus-19977c84d4a2?sk=2c1c9718ce2c76e205cbf559b652747cThis repo contain source code described in the medum.com article 
