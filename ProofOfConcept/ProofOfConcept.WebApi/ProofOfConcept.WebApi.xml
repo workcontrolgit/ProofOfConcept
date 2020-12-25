@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProofOfConcept.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ProofOfConcept.Api.Controllers.PersonsController.GetAll(System.Int32,System.Int32)">
+            <summary>
+            SELECT records from mock library GenFu
+            </summary>
+        </member>
+        <member name="M:ProofOfConcept.Api.Controllers.ProductsController.GetAll(ProofOfConcept.Application.Parameters.GetAllProductsParameter)">
+            <summary>
+            SELECT records
+            </summary>
+        </member>
+        <member name="M:ProofOfConcept.Api.Controllers.ProductsController.GetById(System.Guid)">
+            <summary>
+            SELECT a record by id
+            </summary>
+            <param name="id">product unique id</param>
+        </member>
+        <member name="M:ProofOfConcept.Api.Controllers.ProductsController.Add(ProofOfConcept.Core.Entities.Product)">
+            <summary>
+            INSERT a record
+            </summary>
+            <param name="product">Data fields for insert</param>
+        </member>
+        <member name="M:ProofOfConcept.Api.Controllers.ProductsController.Update(ProofOfConcept.Core.Entities.Product)">
+            <summary>
+            UPDATE a record
+            </summary>
+            <param name="product">Data fields for update</param>
+        </member>
+        <member name="M:ProofOfConcept.Api.Controllers.ProductsController.Delete(System.Guid)">
+            <summary>
+            DELETE a record by id
+            </summary>
+            <param name="id">product unique id</param>
+        </member>
+    </members>
+</doc>
