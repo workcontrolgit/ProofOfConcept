@@ -23,7 +23,8 @@ This repo contains source code described in the medum.com article https://fuji-n
 3. Run the solution
 
 
-If you want to experiment with the Products REST endpoint, create database and table using the sql script below
+##If you want to experiment with the Products REST endpoint, create database and table using the sql script below
+
 CREATE DATABASE KissApiDB
 GO
 USE KissApiDB
