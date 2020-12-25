@@ -20,26 +20,5 @@ This repo contains source code described in the medum.com article https://fuji-n
 
 1. Clone the repo
 2. Open the KissApi.sln with Visual Studio 2019
-3. Run the solution
-
-
-##If you want to experiment with the Products REST endpoint, create database and table using the sql script below
-
-CREATE DATABASE KissApiDB
-GO
-USE KissApiDB
-GO
--- 2. Create table Products 
-CREATE TABLE [dbo].[Products](
-	[Id] [uniqueidentifier] ROWGUIDCOL NOT NULL,
-	[Name] [nvarchar](50) NOT NULL,
-	[Barcode] [nvarchar](50) NOT NULL,
-	[Description] [nvarchar](max) NOT NULL,
-	[Rate] [decimal](18, 2) NOT NULL,
-	[AddedOn] [datetime] NOT NULL,
-	[ModifiedOn] [datetime] NULL,
- CONSTRAINT [PK_Products] PRIMARY KEY CLUSTERED 
-(
-	[Id] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+3. Create database and table using the db_script.sql (find in the solution root foler)
+4. Run the solution
