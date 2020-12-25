@@ -10,11 +10,11 @@ This repo contains source code described in the medum.com article https://fuji-n
 
 ## The tech stack includes the following
 
-ASP.NET CORE 3.1 for WebAPI
-Dapper for ORM
-SQLKata for query builder and paging
-Swagger for WebAPI documentation and testing
-Bogus and GenFu for mock data and rapid webapi prototype
+1. ASP.NET CORE 3.1 for WebAPI
+2. Dapper for ORM
+3. SQLKata for query builder and paging
+4. Swagger for WebAPI documentation and testing
+5. Bogus and GenFu for mock data and rapid webapi prototype
 
 ## Instructions to run the project
 
