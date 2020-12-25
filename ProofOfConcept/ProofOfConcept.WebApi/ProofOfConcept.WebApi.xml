@@ -4,7 +4,7 @@
         <name>ProofOfConcept.WebApi</name>
     </assembly>
     <members>
-        <member name="M:ProofOfConcept.Api.Controllers.IncidentsController.GetAll(System.Int32,System.Int32)">
+        <member name="M:ProofOfConcept.Api.Controllers.IncidentsController.GetAll(ProofOfConcept.Application.Parameters.RequestParameter)">
             <summary>
             SELECT records from mock library Bogus
             </summary>
