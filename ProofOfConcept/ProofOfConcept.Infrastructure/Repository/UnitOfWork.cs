@@ -4,7 +4,7 @@ namespace ProofOfConcept.Infrastructure.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
-        public UnitOfWork(IProductRepository productRepository, 
+        public UnitOfWork(IProductRepository productRepository,
             IPersonRepository personRepository,
             IIncidentReportRepository incidentReportRepository)
         {
