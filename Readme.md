@@ -1,4 +1,5 @@
-This repo contains source code described in the medum.com article https://medium.com/scrum-and-coke/quick-proof-of-concept-asp-net-core-web-api-using-swashbuckle-aspnetcore-and-bogus-19977c84d4a2?sk=2c1c9718ce2c76e205cbf559b652747c
+This repo contains source code described in the medum.com article "[Rapid Prototype of ASP.NET Core WebAPI with Swashbuckle and Bogus"](https://medium.com/scrum-and-coke/quick-proof-of-concept-asp-net-core-web-api-using-swashbuckle-aspnetcore-and-bogus-19977c84d4a2?sk=2c1c9718ce2c76e205cbf559b652747c)
+
 
 ## This project is based on Clean Architecture, Repository and Unit of Work patterns. The source code is organized in four projects
 
